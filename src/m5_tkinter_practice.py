@@ -94,8 +94,9 @@ def main():
             print('Goodbye')
 
     def another(entry_box2):
+        contents = my_entry_box.get()
         contents2 = entry_box2.get()
-        print(int(contents2) * whatttt)
+        print(int(contents2) * contents)
 
 
     root.mainloop()
